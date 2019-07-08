@@ -838,10 +838,10 @@ body {
   margin-left:auto;
   margin-right:auto;
   position:center;
+  width:90vw;
  }
  .column.next h1 {
   font-size:30px;
-  width:100vw;
  }
  }
   }
