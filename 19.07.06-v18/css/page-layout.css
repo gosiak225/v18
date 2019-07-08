@@ -826,6 +826,9 @@ img[alt] {
   position:absolute;
   left:-380px;
  }
+ .next h1 {
+  font-size: 25px;
+}
   }
 
   @media screen and (max-width: 500px) {
