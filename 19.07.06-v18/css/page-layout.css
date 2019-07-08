@@ -599,11 +599,9 @@ img[alt] {
 @media screen and (max-width: 1200px) {
 
   .container-home {
-    display: block;
     align-items: center;
     text-align: center;
-    margin:0 auto;
-    text-align:center;
+    margin:0 0;
 }
 .background {
   margin-leftt:0;
@@ -643,7 +641,6 @@ img[alt] {
     padding: 0;
     margin: 10px;
     flex-wrap: wrap;
-
 }
 
 .column.next, .column.previous {
