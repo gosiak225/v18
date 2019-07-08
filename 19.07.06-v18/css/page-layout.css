@@ -299,6 +299,9 @@ img[alt] {
   left:0;
   /*height:80px;*/
 }
+#background2 {
+  display:none;
+}
 
 .slideshow {
   z-index: 1;
@@ -609,10 +612,13 @@ img[alt] {
     text-align:center;
 }
 #background {
-
+  display:none;
   top:auto;
   left:auto;
 }
+#background2 {
+  visibility: visible;
+ }
  .column.previous {
   margin-top:10px;
   margin-bottom:10px;
