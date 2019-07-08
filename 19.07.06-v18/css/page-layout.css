@@ -304,7 +304,7 @@ img[alt] {
 }
 
 .slideshow {
-  z-index: 1;
+  z-index: 2;
   /*width:10%;*/
   /* opacity: 1.0;
   filter: alpha(opacity=100); For IE8 and earlier */
@@ -612,14 +612,13 @@ img[alt] {
     text-align:center;
 }
 #background {
-  display:none;
-  top:auto;
-  left:auto;
+  visibility: hidden;
 }
 #background2 {
   visibility: visible;
   top:0;
   left:0;
+  z-index:0;
  }
  .column.previous {
   margin-top:10px;
