@@ -254,7 +254,7 @@ img[alt] {
   position: absolute;
   top: 130px;
   left:50px;
-  z-index: 0;
+  z-index: -2;
   margin-bottom:10px;
 }
 .brand-intro {
@@ -297,11 +297,12 @@ img[alt] {
   /*height:100%;*/
   top:0;
   left:0;
-  z-index:0;
+  z-index:-1;
   /*height:80px;*/
 }
 #background2 {
   visibility:hidden;
+  z-index:-1;
 }
 
 .slideshow {
@@ -613,7 +614,7 @@ img[alt] {
     text-align:center;
 }
 #background {
-  visibility: hidden;
+  display:none;
 }
 #background2 {
   visibility: visible;
