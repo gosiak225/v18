@@ -757,15 +757,12 @@ img[alt] {
 }
  .container-home {
   display:flex;
+   flex-flow: column wrap;
 }
 
  #img01 {
   margin-top:30px;
  }
-/*   .background {
-    top:80px;
-    left:-240px;
-  } */
   #fusion {
     top:190px;
     left: 90px;
@@ -777,13 +774,6 @@ img[alt] {
   #fire, #lumiere {
     top:190px;
     left: 110px;
-  }
-  .column.next {
-    margin-bottom:80px;
-    margin-top:97px;
-    opacity:1;
-    z-index:1;
-    background-color: #f4f4f4;
   }
 }
 
