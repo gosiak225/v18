@@ -34,7 +34,11 @@ body {
   height:auto;
   background-color: #F4F4F4;
 }
-
+img[alt] {
+  color:grey;
+  font-style:italic;
+  font-size:10px;
+}
 /*header*/
 #artist {
   font-family: 'Marck Script', cursive;
