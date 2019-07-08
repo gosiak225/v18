@@ -254,7 +254,7 @@ img[alt] {
   position: absolute;
   top: 130px;
   left:50px;
-  z-index: -2;
+  z-index: 0;
   margin-bottom:10px;
 }
 .brand-intro {
@@ -293,23 +293,15 @@ img[alt] {
    height:100px;
 }
 #background {
-  /*width:90%;*/
-  /*height:100%;*/
   top:0;
   left:0;
-  z-index:-1;
-  /*height:80px;*/
 }
 #background2 {
   visibility:hidden;
-  z-index:-1;
 }
 
 .slideshow {
   z-index: 2;
-  /*width:10%;*/
-  /* opacity: 1.0;
-  filter: alpha(opacity=100); For IE8 and earlier */
 }
 
 #fusion {
@@ -620,7 +612,6 @@ img[alt] {
   visibility: visible;
   top:0;
   left:0;
-  z-index:0;
  }
  .column.previous {
   margin-top:10px;
