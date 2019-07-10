@@ -907,16 +907,16 @@ and (min-height : 1080px){
     left:150px;
   }
 #fusion {
-  top: 380px;
-  left: 490px;
+  top: 370px;
+  left: 480px;
 }
 #multi1, #multi2 {
-  top: 380px;
-  left: 510px;
+  top: 370px;
+  left: 500px;
   }
 #fire, #lumiere {
-  top: 380px;
-  left: 520px;
+  top: 370px;
+  left: 500px;
 }
 }
 @media only screen 
@@ -926,16 +926,16 @@ and (min-height : 1024px){
     left:150px;
   }
 #fusion {
-  top: 380px;
-  left: 490px;
+  top: 370px;
+  left: 480px;
 }
 #multi1, #multi2 {
-  top: 380px;
-  left: 510px;
+  top: 370px;
+  left: 500px;
   }
 #fire, #lumiere {
-  top: 380px;
-  left: 520px;
+  top: 370px;
+  left: 510px;
 }
 }
 @media only screen 
@@ -945,16 +945,16 @@ and (min-height : 1200px){
     left:150px;
   }
 #fusion {
-  top: 420px;
-  left: 490px;
+  top: 410px;
+  left: 480px;
 }
 #multi1, #multi2 {
-  top: 420px;
-  left: 510px;
+  top: 410px;
+  left: 500px;
   }
 #fire, #lumiere {
-  top: 420px;
-  left: 520px;
+  top: 410px;
+  left: 510px;
 }
 }
 
