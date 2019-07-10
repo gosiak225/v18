@@ -597,12 +597,6 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-
-/*  .container-home {
-    align-items: center;
-    text-align: center;
-    margin:0 0;
-}*/
 #background3 {
   display:none;
 }
@@ -652,17 +646,6 @@ body {
     margin-bottom:80px;
     margin-top:97px;
     }
-
-/*.column.next, .column.previous {
-  width:100vw;
-  text-align:center;
-  align-self:center;
-  align-content:center;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right:0;
-}*/
 .container.contact-container {
   position:relative;
   top: 80px;
@@ -711,11 +694,7 @@ body {
   right: 0;
   top: 0;
 }
-/* 100% Image Width on Smaller Screens */
- /* .modal-content {
-    width: 100%;
 
-  }*/
 }
 /* .topnav.responsive {position: relative;} */
 .topnav.responsive a.icon {
@@ -864,19 +843,19 @@ body {
 and (min-width : 1440px) {
   #background3 {
     top: 150px;
-    left:40px;
+    left:50px;
   }
 #fusion {
   top: 280px;
-  left: 400px;
+  left: 390px;
 }
 #multi1, #multi2 {
   top: 280px;
-  left: 420px;
+  left: 410px;
   }
 #fire, #lumiere {
   top: 280px;
-  left: 430px;
+  left: 420px;
 }
 }
 @media only screen 
@@ -889,20 +868,20 @@ and (min-width : 1600px) {
     left:50px;
   }
 #fusion {
-  top: 290px;
+  top: 300px;
   left: 390px;
 }
 #multi1, #multi2 {
-  top: 290px;
+  top: 300px;
   left: 410px;
   }
 #fire, #lumiere {
-  top: 290px;
+  top: 300px;
   left: 420px;
 }
 }
 @media only screen 
-and (min-width : 1880px) {
+and (min-width : 1680px) {
 #background3 {
     top: 200px;
     left:100px;
@@ -921,21 +900,43 @@ and (min-width : 1880px) {
 }
 }
 @media only screen 
-and (min-width : 1920px) {
+and (min-width : 1920px) 
+and (min-height : 1080px){
 #background3 {
     top: 250px;
     left:150px;
   }
 #fusion {
   top: 380px;
-  left: 510px;
+  left: 490px;
 }
 #multi1, #multi2 {
   top: 380px;
-  left: 530px;
+  left: 510px;
   }
 #fire, #lumiere {
   top: 380px;
-  left: 540px;
+  left: 520px;
 }
 }
+@media only screen 
+and (min-height : 1024px){
+#background3 {
+    top: 250px;
+    left:150px;
+  }
+#fusion {
+  top: 380px;
+  left: 490px;
+}
+#multi1, #multi2 {
+  top: 380px;
+  left: 510px;
+  }
+#fire, #lumiere {
+  top: 380px;
+  left: 520px;
+}
+}
+
+
