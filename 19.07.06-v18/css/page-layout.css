@@ -834,7 +834,7 @@ body {
   }
  #text, .tooltiptext {
   position:absolute;
-  left:-380px;
+  left:0px;
  }
  .column.next {
   margin-bottom:120px;
@@ -858,3 +858,10 @@ body {
     }
  
   }
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1440px) {
+  .previous, .next {
+    margin-top: 200px;
+}
