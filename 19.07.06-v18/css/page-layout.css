@@ -834,7 +834,7 @@ body {
   }
  #text, .tooltiptext {
   position:absolute;
-  left:-50px;
+  left:-250px;
  }
  .column.next {
   margin-bottom:120px;
