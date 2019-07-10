@@ -861,12 +861,9 @@ body {
 
 /* Large screens ----------- */
 @media only screen 
-and (min-width : 1600px) {
-  #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:10vh;
-  }
+and (min-width : 1440px) {
   #background3 {
-    top: 200px;
+    top: 150px;
     left:50px;
   }
 #fusion {
@@ -880,6 +877,28 @@ and (min-width : 1600px) {
 #fire, #lumiere {
   top: 280px;
   left: 450px;
+}
+}
+@media only screen 
+and (min-width : 1600px) {
+  #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
+    margin-top:10vh;
+  }
+  #background3 {
+    top: 180px;
+    left:50px;
+  }
+#fusion {
+  top: 280px;
+  left: 290px;
+}
+#multi1, #multi2 {
+  top: 280px;
+  left: 410px;
+  }
+#fire, #lumiere {
+  top: 280px;
+  left: 420px;
 }
 }
 @media only screen 
