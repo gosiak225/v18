@@ -904,7 +904,7 @@ and (min-width : 1600px) {
 @media only screen 
 and (min-width : 1880px) {
 #background3 {
-    top: 250px;
+    top: 220px;
     left:100px;
   }
 #fusion {
@@ -920,7 +920,7 @@ and (min-width : 1880px) {
   left: 500px;
 }
 }
-@media only screen 
+/* @media only screen 
 and (min-width : 1920px) {
 #background3 {
     top: 300px;
@@ -938,4 +938,4 @@ and (min-width : 1920px) {
   top: 380px;
   left: 550px;
 }
-}
+} */
