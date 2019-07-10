@@ -861,46 +861,62 @@ body {
 
 /* Large screens ----------- */
 @media only screen 
-and (min-width : 1440px) {
-  #background3 {
-    top: 250px;
-    left:150px;
-  }
+and (min-width : 1600px) {
   #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:5vh;
+    margin-top:10vh;
   }
- #fusion {
-  top: 300px;
-  left: 4200px;
+  #background3 {
+    top: 200px;
+    left:50px;
+  }
+#fusion {
+  top: 280px;
+  left: 420px;
 }
 #multi1, #multi2 {
-  top: 300px;
+  top: 280px;
   left: 440px;
   }
 #fire, #lumiere {
-  top: 300px;
+  top: 280px;
   left: 450px;
 }
 }
 @media only screen 
-and (min-width : 1440px) {
-  .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:10vh;
+and (min-width : 1880px) {
+#background3 {
+    top: 250px;
+    left:100px;
   }
-/*     #background3 {
-    top: 50px;
-    left:50px;
-  }
- #fusion {
-  top: 300px;
-  left: 4200px;
+#fusion {
+  top: 330px;
+  left: 470px;
 }
 #multi1, #multi2 {
-  top: 300px;
-  left: 440px;
+  top: 330px;
+  left: 490px;
   }
 #fire, #lumiere {
-  top: 300px;
-  left: 450px;
-} */
+  top: 330px;
+  left: 500px;
+}
+}
+@media only screen 
+and (min-width : 1920px) {
+#background3 {
+    top: 300px;
+    left:150px;
+  }
+#fusion {
+  top: 380px;
+  left: 520px;
+}
+#multi1, #multi2 {
+  top: 380px;
+  left: 540px;
+  }
+#fire, #lumiere {
+  top: 380px;
+  left: 550px;
+}
 }
