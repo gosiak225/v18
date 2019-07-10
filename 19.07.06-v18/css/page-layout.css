@@ -865,7 +865,7 @@ and (min-width : 1440px) {
   .previous {
     margin-top: 200px;
   }
-  .column {
+  #background, .column.next, .column.previous, .container.contact-container, .about-container {
     margin-top:10vh;
   }
 }
