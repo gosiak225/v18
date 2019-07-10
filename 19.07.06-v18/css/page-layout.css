@@ -864,7 +864,7 @@ body {
 and (min-width : 1440px) {
   #background3 {
     top: 150px;
-    left:50px;
+    left:40px;
   }
 #fusion {
   top: 280px;
@@ -928,14 +928,14 @@ and (min-width : 1920px) {
   }
 #fusion {
   top: 380px;
-  left: 520px;
+  left: 510px;
 }
 #multi1, #multi2 {
   top: 380px;
-  left: 540px;
+  left: 530px;
   }
 #fire, #lumiere {
   top: 380px;
-  left: 550px;
+  left: 540px;
 }
 }
