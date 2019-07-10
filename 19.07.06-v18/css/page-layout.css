@@ -862,10 +862,23 @@ body {
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1440px) {
-  .previous {
-    margin-top: 200px;
+  #background3 {
+    top: 50px;
+    left:50px;
   }
   #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
     margin-top:10vh;
   }
+ #fusion {
+  top: 300px;
+  left: 4200px;
+}
+#multi1, #multi2 {
+  top: 300px;
+  left: 440px;
+  }
+#fire, #lumiere {
+  top: 300px;
+  left: 450px;
+}
 }
