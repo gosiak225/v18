@@ -863,11 +863,11 @@ body {
 @media only screen 
 and (min-width : 1440px) {
   #background3 {
-    top: 50px;
-    left:50px;
+    top: 250px;
+    left:150px;
   }
   #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:10vh;
+    margin-top:5vh;
   }
  #fusion {
   top: 300px;
@@ -881,4 +881,26 @@ and (min-width : 1440px) {
   top: 300px;
   left: 450px;
 }
+}
+@media only screen 
+and (min-width : 1440px) {
+  .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
+    margin-top:10vh;
+  }
+/*     #background3 {
+    top: 50px;
+    left:50px;
+  }
+ #fusion {
+  top: 300px;
+  left: 4200px;
+}
+#multi1, #multi2 {
+  top: 300px;
+  left: 440px;
+  }
+#fire, #lumiere {
+  top: 300px;
+  left: 450px;
+} */
 }
