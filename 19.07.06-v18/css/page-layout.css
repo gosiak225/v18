@@ -863,7 +863,7 @@ body {
 @media only screen 
 and (min-width : 1440px) {
   #background3 {
-    top: 350px;
+    top: 250px;
     left:150px;
   }
   #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
