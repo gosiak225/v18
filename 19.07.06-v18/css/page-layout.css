@@ -864,4 +864,8 @@ body {
 and (min-width : 1440px) {
   .previous {
     margin-top: 200px;
+  }
+  .column {
+    margin-top:10vh;
+  }
 }
