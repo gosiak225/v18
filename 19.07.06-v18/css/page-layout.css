@@ -868,15 +868,15 @@ and (min-width : 1440px) {
   }
 #fusion {
   top: 280px;
-  left: 420px;
+  left: 400px;
 }
 #multi1, #multi2 {
   top: 280px;
-  left: 440px;
+  left: 420px;
   }
 #fire, #lumiere {
   top: 280px;
-  left: 450px;
+  left: 430px;
 }
 }
 @media only screen 
@@ -889,15 +889,15 @@ and (min-width : 1600px) {
     left:50px;
   }
 #fusion {
-  top: 280px;
-  left: 290px;
+  top: 290px;
+  left: 390px;
 }
 #multi1, #multi2 {
-  top: 280px;
+  top: 290px;
   left: 410px;
   }
 #fire, #lumiere {
-  top: 280px;
+  top: 290px;
   left: 420px;
 }
 }
@@ -908,22 +908,22 @@ and (min-width : 1880px) {
     left:100px;
   }
 #fusion {
-  top: 330px;
+  top: 350px;
   left: 470px;
 }
 #multi1, #multi2 {
-  top: 330px;
+  top: 350px;
   left: 490px;
   }
 #fire, #lumiere {
-  top: 330px;
+  top: 350px;
   left: 500px;
 }
 }
-/* @media only screen 
+@media only screen 
 and (min-width : 1920px) {
 #background3 {
-    top: 300px;
+    top: 250px;
     left:150px;
   }
 #fusion {
@@ -938,4 +938,4 @@ and (min-width : 1920px) {
   top: 380px;
   left: 550px;
 }
-} */
+}
