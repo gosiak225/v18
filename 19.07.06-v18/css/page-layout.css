@@ -904,7 +904,7 @@ and (min-width : 1600px) {
 @media only screen 
 and (min-width : 1880px) {
 #background3 {
-    top: 220px;
+    top: 200px;
     left:100px;
   }
 #fusion {
