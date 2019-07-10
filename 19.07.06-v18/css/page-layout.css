@@ -632,6 +632,9 @@ body {
   margin-bottom:10px;
   position:top-left;
  }
+  .tooltip .tooltiptext,  .tooltip2 .tooltiptext2{
+  z-index: 5;
+}
 }
 
 @media screen and (max-width: 900px) {
