@@ -734,17 +734,17 @@ body {
  #img01 {
   margin-top:30px;
  }
-  #fusion {
-    left: 180px;
+ #fusion {
+    left: 130px;
   }
   #multi1, #multi2 {
-    left: 200px;
+    left: 150px;
     }
   #fire, #lumiere {
-    left: 210px;
+    left: 160px;
   }
 #background2 {
-  left:100px;
+  left:50px;
 }
 }
 
@@ -815,18 +815,6 @@ body {
     #push {
       margin: 10px 0;
     }
-      #fusion {
-    left: 130px;
-  }
-  #multi1, #multi2 {
-    left: 150px;
-    }
-  #fire, #lumiere {
-    left: 160px;
-  }
-#background2 {
-  left:50px;
-}
   }
   @media screen and (max-width: 400px) {
     #background2 {
