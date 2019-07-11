@@ -824,13 +824,13 @@ body {
       left:100px;  
     }
    #fusion {
-    left: 130px;
+    left: 180px;
   }
   #multi1, #multi2 {
-    left: 150px;
+    left: 200px;
     }
   #fire, #lumiere {
-    left: 160px;
+    left: 210px;
   }
 }
 
@@ -841,6 +841,18 @@ body {
     #push {
       margin: 10px 0;
     }
+       #background2 {
+      left:50px;  
+    }
+   #fusion {
+    left: 130px;
+  }
+  #multi1, #multi2 {
+    left: 150px;
+    }
+  #fire, #lumiere {
+    left: 160px;
+  }
   }
   @media screen and (max-width: 400px) {
      #background2 {
