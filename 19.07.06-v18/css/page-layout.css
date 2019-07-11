@@ -898,7 +898,7 @@ and (min-width : 1920px)
 }
 @media only screen 
 and (min-height : 890px){
-#background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
+#background, column.previous, .container.contact-container, .about-container, #paintings-container {
     margin-top:10vh;
   }
 #background3 {
@@ -910,7 +910,7 @@ and (min-height : 890px){
 }
 @media only screen 
 and (min-height : 1024px){
-#background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
+#background, .column.previous, .container.contact-container, .about-container, #paintings-container {
     margin-top:10vh;
   }
 #background3 {
