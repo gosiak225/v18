@@ -762,7 +762,7 @@ body {
 
 
 #background2 {
-  left:0;
+  left:50px;
   /*top:25px;*/
 }
 }
@@ -825,7 +825,7 @@ body {
  .column.next h1 {
   font-size:30px;
  }
- }
+ .background
   }
 
   @media screen and (max-width: 500px) {
@@ -837,124 +837,88 @@ body {
     }
  
   }
+  @media screen and (max-width: 400px) {
+    #background2 {
+      left:50px;  
+      /*top:25px;*/
+    }
+  }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1440px) {
-  #background3 {
-    top: 150px;
+ #background3 {
     left:50px;
   }
 #fusion {
-  top: 280px;
   left: 390px;
 }
 #multi1, #multi2 {
-  top: 280px;
   left: 410px;
   }
 #fire, #lumiere {
-  top: 280px;
   left: 420px;
 }
 }
-@media only screen 
-and (min-width : 1600px) {
-  #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:10vh;
-  }
-  #background3 {
-    top: 180px;
-    left:50px;
-  }
-#fusion {
-  top: 300px;
-  left: 390px;
-}
-#multi1, #multi2 {
-  top: 300px;
-  left: 410px;
-  }
-#fire, #lumiere {
-  top: 300px;
-  left: 420px;
-}
-}
+
 @media only screen 
 and (min-width : 1680px) {
 #background3 {
-    top: 200px;
     left:100px;
   }
 #fusion {
-  top: 350px;
   left: 470px;
 }
 #multi1, #multi2 {
-  top: 350px;
   left: 490px;
   }
 #fire, #lumiere {
-  top: 350px;
   left: 500px;
 }
 }
 @media only screen 
 and (min-width : 1920px) 
-and (min-height : 1080px){
 #background3 {
-    top: 250px;
     left:150px;
   }
 #fusion {
-  top: 360px;
   left: 480px;
 }
 #multi1, #multi2 {
-  top: 360px;
   left: 500px;
   }
 #fire, #lumiere {
-  top: 360px;
   left: 510px;
+}
+}
+@media only screen 
+and (min-height : 900px) {
+ #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
+    margin-top:10vh;
+  }
+  #background3 {
+    top: 150px;
+  }
+#fusion, #multi1, #multi, #fire, #lumiere {
+  top: 280px;
 }
 }
 @media only screen 
 and (min-height : 1024px){
 #background3 {
     top: 250px;
-    left:150px;
   }
-#fusion {
+#fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 360px;
-  left: 480px;
-}
-#multi1, #multi2 {
-  top: 360px;
-  left: 500px;
-  }
-#fire, #lumiere {
-  top: 360px;
-  left: 510px;
 }
 }
 @media only screen 
 and (min-height : 1200px){
 #background3 {
     top: 300px;
-    left:150px;
   }
-#fusion {
+#fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 410px;
-  left: 480px;
-}
-#multi1, #multi2 {
-  top: 410px;
-  left: 500px;
-  }
-#fire, #lumiere {
-  top: 410px;
-  left: 510px;
 }
 }
 
