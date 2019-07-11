@@ -821,7 +821,7 @@ body {
   font-size:30px;
  }
    #background2 {
-      left:100;  
+      left:100px;  
     }
    #fusion {
     left: 130px;
@@ -843,17 +843,17 @@ body {
     }
   }
   @media screen and (max-width: 400px) {
-    #background2 {
+     #background2 {
       left:0;  
     }
    #fusion {
-    left: 30px;
+    left: 80px;
   }
   #multi1, #multi2 {
-    left: 70px;
+    left: 100px;
     }
   #fire, #lumiere {
-    left: 80px;
+    left: 110px;
   }
   }
 
