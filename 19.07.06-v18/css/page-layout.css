@@ -674,7 +674,7 @@ body {
 }
 /* When the screen is less than 700 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
     /* hiding all the links except the logo and brand */
     .topnav a:not(:first-child) {display: none;}
     /* menu bar - position right-top */
@@ -723,17 +723,16 @@ body {
   margin-top:30px;
  }
   #fusion {
-    left: 80px;
+    left: 130px;
   }
   #multi1, #multi2 {
-    left: 100px;
+    left: 150px;
     }
   #fire, #lumiere {
-    left: 110px;
+    left: 160px;
   }
 #background2 {
   left:50px;
-  /*top:25px;*/
 }
 }
 
@@ -810,13 +809,13 @@ body {
       left:0;  
     }
    #fusion {
-    left: 30px;
+    left: 80px;
   }
   #multi1, #multi2 {
-    left: 50px;
+    left: 100px;
     }
   #fire, #lumiere {
-    left: 60px;
+    left: 110px;
   }
   }
 
