@@ -851,13 +851,13 @@ and (min-width : 1440px) {
     left:50px;
   }
 #fusion {
-  left: 290px;
+  left: 240px;
 }
 #multi1, #multi2 {
-  left: 310px;
+  left: 260px;
   }
 #fire, #lumiere {
-  left: 320px;
+  left: 270px;
 }
 }
 
@@ -892,7 +892,7 @@ and (min-width : 1920px)
 }
 }
 @media only screen 
-and (min-height : 900px){
+and (min-height : 890px){
 #background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
     margin-top:10vh;
   }
