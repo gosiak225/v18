@@ -298,9 +298,6 @@ body {
 
 .slideshow {
   z-index: 1;
-  /*width:10%;*/
-  /* opacity: 1.0;
-  filter: alpha(opacity=100); For IE8 and earlier */
 }
 
 #fusion {
@@ -410,7 +407,6 @@ body {
   
 }
 #painting-photo {
-  /* padding-bottom: 20px; */
   -moz-box-shadow:5px 5px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 5px 5px 7px rgba(0,0,0,.7);
   box-shadow:5px 5px 7px rgba(0,0,0,.7);
@@ -607,15 +603,15 @@ body {
 }
   #fusion {
     top:190px;
-    left: 120px;
+    left: 220px;
   }
   #multi1, #multi2 {
     top:190px;
-    left: 140px;
+    left: 240px;
     }
   #fire, #lumiere {
     top:190px;
-    left: 150px;
+    left: 250px;
   }
  .column.previous {
   margin-top:20px;
