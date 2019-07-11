@@ -827,13 +827,13 @@ and (min-width : 1440px) {
     left:50px;
   }
 #fusion {
-  left: 390px;
+  left: 380px;
 }
 #multi1, #multi2 {
-  left: 410px;
+  left: 400px;
   }
 #fire, #lumiere {
-  left: 420px;
+  left: 410px;
 }
 }
 
@@ -843,13 +843,13 @@ and (min-width : 1680px) {
     left:100px;
   }
 #fusion {
-  left: 440px;
+  left: 430px;
 }
 #multi1, #multi2 {
-  left: 460px;
+  left: 450px;
   }
 #fire, #lumiere {
-  left: 470px;
+  left: 460px;
 }
 }
 @media only screen 
@@ -858,13 +858,13 @@ and (min-width : 1920px) {
     left:150px;
   }
 #fusion {
-  left: 490px;
+  left: 480px;
 }
 #multi1, #multi2 {
-  left: 510px;
+  left: 500px;
   }
 #fire, #lumiere {
-  left: 520px;
+  left: 510px;
 }
 }
 @media only screen 
