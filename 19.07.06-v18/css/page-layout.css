@@ -872,6 +872,9 @@ and (min-height : 900px){
 #background3 {
     top: 200px;
   }
+#background2 {
+    top:340px; 
+  }
 #fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 310px;
 }
