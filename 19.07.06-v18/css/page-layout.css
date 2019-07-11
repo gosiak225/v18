@@ -592,7 +592,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 #background3 {
   display:none;
 }
@@ -827,13 +827,13 @@ and (min-width : 1440px) {
     left:50px;
   }
 #fusion {
-  left: 190px;
+  left: 290px;
 }
 #multi1, #multi2 {
-  left: 210px;
+  left: 310px;
   }
 #fire, #lumiere {
-  left: 220px;
+  left: 320px;
 }
 }
 
@@ -841,6 +841,21 @@ and (min-width : 1440px) {
 and (min-width : 1680px) {
 #background3 {
     left:100px;
+  }
+#fusion {
+  left: 340px;
+}
+#multi1, #multi2 {
+  left: 360px;
+  }
+#fire, #lumiere {
+  left: 370px;
+}
+}
+@media only screen 
+and (min-width : 1920px) {
+#background3 {
+    left:150px;
   }
 #fusion {
   left: 390px;
@@ -853,27 +868,9 @@ and (min-width : 1680px) {
 }
 }
 @media only screen 
-and (min-width : 1920px) {
-#background3 {
-    left:150px;
-  }
-#fusion {
-  left: 440px;
-}
-#multi1, #multi2 {
-  left: 460px;
-  }
-#fire, #lumiere {
-  left: 470px;
-}
-}
-@media only screen 
 and (min-height : 900px){
-#background, column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:10vh;
-  }
 #background3 {
-    top: 300px;
+    top: 200px;
   }
 #fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 310px;
@@ -881,6 +878,9 @@ and (min-height : 900px){
 }
 @media only screen 
 and (min-height : 1024px){
+ #background, column.previous, .container.contact-container, .about-container, #paintings-container {
+    margin-top:10vh;
+  }
 #background3 {
     top: 250px;
   }
