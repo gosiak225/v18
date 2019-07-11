@@ -907,16 +907,16 @@ and (min-height : 1080px){
     left:150px;
   }
 #fusion {
-  top: 370px;
-  left: 480px;
+  top: 360px;
+  left: 470px;
 }
 #multi1, #multi2 {
-  top: 370px;
-  left: 500px;
+  top: 360px;
+  left: 490px;
   }
 #fire, #lumiere {
-  top: 370px;
-  left: 500px;
+  top: 360px;
+  left: 480px;
 }
 }
 @media only screen 
@@ -926,16 +926,16 @@ and (min-height : 1024px){
     left:150px;
   }
 #fusion {
-  top: 370px;
-  left: 480px;
+  top: 360px;
+  left: 470px;
 }
 #multi1, #multi2 {
-  top: 370px;
-  left: 500px;
+  top: 360px;
+  left: 490px;
   }
 #fire, #lumiere {
-  top: 370px;
-  left: 510px;
+  top: 360px;
+  left: 480px;
 }
 }
 @media only screen 
