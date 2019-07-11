@@ -851,13 +851,13 @@ and (min-width : 1440px) {
     left:50px;
   }
 #fusion {
-  left: 440px;
+  left: 340px;
 }
 #multi1, #multi2 {
-  left: 460px;
+  left: 360px;
   }
 #fire, #lumiere {
-  left: 470px;
+  left: 370px;
 }
 }
 
@@ -867,13 +867,13 @@ and (min-width : 1680px) {
     left:100px;
   }
 #fusion {
-  left: 490px;
+  left: 390px;
 }
 #multi1, #multi2 {
-  left: 510px;
+  left: 410px;
   }
 #fire, #lumiere {
-  left: 520px;
+  left: 420px;
 }
 }
 @media only screen 
@@ -882,13 +882,13 @@ and (min-width : 1920px)
     left:150px;
   }
 #fusion {
-  left: 540px;
+  left: 440px;
 }
 #multi1, #multi2 {
-  left: 560px;
+  left: 460px;
   }
 #fire, #lumiere {
-  left: 570px;
+  left: 470px;
 }
 }
 @media only screen 
@@ -905,6 +905,9 @@ and (min-height : 900px) {
 }
 @media only screen 
 and (min-height : 1024px){
+#background, .column.next, .column.previous, .container.contact-container, .about-container, #paintings-container {
+    margin-top:10vh;
+  }
 #background3 {
     top: 250px;
   }
