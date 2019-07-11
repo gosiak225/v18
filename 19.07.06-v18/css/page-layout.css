@@ -723,16 +723,16 @@ body {
   margin-top:30px;
  }
   #fusion {
-    left: 130px;
+    left: 180px;
   }
   #multi1, #multi2 {
-    left: 150px;
+    left: 200px;
     }
   #fire, #lumiere {
-    left: 160px;
+    left: 210px;
   }
 #background2 {
-  left:50px;
+  left:100px;
 }
 }
 
@@ -803,6 +803,18 @@ body {
     #push {
       margin: 10px 0;
     }
+      #fusion {
+    left: 130px;
+  }
+  #multi1, #multi2 {
+    left: 150px;
+    }
+  #fire, #lumiere {
+    left: 160px;
+  }
+#background2 {
+  left:50px;
+}
   }
   @media screen and (max-width: 400px) {
     #background2 {
