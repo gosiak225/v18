@@ -735,11 +735,6 @@ body {
   left:100px;
 }
 }
-@media screen and (max-width: 720px) {
-.container-home {
-  display:block;
-}
-}
 
 @media screen and (max-width: 600px) {
 .container-home {
