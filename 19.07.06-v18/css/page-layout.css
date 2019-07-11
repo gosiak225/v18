@@ -671,6 +671,18 @@ body {
   top: 40px;
   margin-left: 40px;
 }
+  #fusion {
+    left: 180px;
+  }
+  #multi1, #multi2 {
+    left: 200px;
+    }
+  #fire, #lumiere {
+    left: 210px;
+  }
+#background2 {
+  left:100px;
+}
 }
 /* When the screen is less than 700 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
