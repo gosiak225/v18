@@ -748,15 +748,12 @@ body {
     left:-240px;
   }*/
   #fusion {
-    top:190px;
     left: 80px;
   }
   #multi1, #multi2 {
-    top:190px;
     left: 100px;
     }
   #fire, #lumiere {
-    top:190px;
     left: 110px;
   }
 
@@ -839,9 +836,18 @@ body {
   }
   @media screen and (max-width: 400px) {
     #background2 {
-      left:50px;  
+      left:0;  
       /*top:25px;*/
     }
+   #fusion {
+    left: 30px;
+  }
+  #multi1, #multi2 {
+    left: 50px;
+    }
+  #fire, #lumiere {
+    left: 60px;
+  }
   }
 
 /* Large screens ----------- */
