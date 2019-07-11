@@ -607,15 +607,15 @@ body {
 }
   #fusion {
     top:190px;
-    left: 20px;
+    left: 120px;
   }
   #multi1, #multi2 {
     top:190px;
-    left: 40px;
+    left: 140px;
     }
   #fire, #lumiere {
     top:190px;
-    left: 50px;
+    left: 150px;
   }
  .column.previous {
   margin-top:20px;
