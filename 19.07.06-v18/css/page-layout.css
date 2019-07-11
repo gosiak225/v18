@@ -851,13 +851,13 @@ and (min-width : 1440px) {
     left:50px;
   }
 #fusion {
-  left: 240px;
+  left: 190px;
 }
 #multi1, #multi2 {
-  left: 260px;
+  left: 210px;
   }
 #fire, #lumiere {
-  left: 270px;
+  left: 220px;
 }
 }
 
