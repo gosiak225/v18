@@ -908,15 +908,15 @@ and (min-height : 1080px){
   }
 #fusion {
   top: 360px;
-  left: 470px;
+  left: 480px;
 }
 #multi1, #multi2 {
   top: 360px;
-  left: 490px;
+  left: 500px;
   }
 #fire, #lumiere {
   top: 360px;
-  left: 480px;
+  left: 510px;
 }
 }
 @media only screen 
@@ -927,15 +927,15 @@ and (min-height : 1024px){
   }
 #fusion {
   top: 360px;
-  left: 470px;
+  left: 480px;
 }
 #multi1, #multi2 {
   top: 360px;
-  left: 490px;
+  left: 500px;
   }
 #fire, #lumiere {
   top: 360px;
-  left: 480px;
+  left: 510px;
 }
 }
 @media only screen 
