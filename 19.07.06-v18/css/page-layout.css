@@ -632,7 +632,6 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-
   .about-container {
     display: block;
     align-items: center;
@@ -640,35 +639,29 @@ body {
     padding: 0;
     margin: 10px;
     flex-wrap: wrap;
-
-}
+  }
   .column.next {
     margin-bottom:80px;
     margin-top:97px;
     }
-.container.contact-container {
-  position:relative;
-  top: 80px;
-  margin-bottom: 380px;
-}
-
+  .container.contact-container {
+    position:relative;
+    top: 80px;
+    margin-bottom: 380px;
+  }
   .column.one, .column.two, .column.once {
     width: 80%;
   }
-
   .two {
     margin-left: 40px;
     margin-right: 160px;
     padding-right: 40px;
     text-align: left;
   }
-
   #column-painting-info {
     text-align:center;
     margin : 10 10 10 10;
-
   }
-
  .column.one img, .column.once img {
   align-self:center;
   position: relative;
@@ -682,39 +675,36 @@ body {
   top: 40px;
   margin-left: 40px;
 }
+}
 /* When the screen is less than 700 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 700px) {
-  /* hiding all the links except the logo and brand */
-.topnav a:not(:first-child) {display: none;}
-/* menu bar - position right-top */
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-}
-/* .topnav.responsive {position: relative;} */
-.topnav.responsive a.icon {
-  position: absolute;
-  right: 20;
-  top: 20;
-}
-.topnav.responsive a {
-  float: none;
-  display: block;
-}
-.topnav.responsive a:not(:first-child):not(:last-child) {
-  padding-top: 1px;
-  text-align: center;
-}
-#copyright, #push {
-  white-space:nowrap;
-}
-
-
+    /* hiding all the links except the logo and brand */
+    .topnav a:not(:first-child) {display: none;}
+    /* menu bar - position right-top */
+    .topnav a.icon {  
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    /* .topnav.responsive {position: relative;} */
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 20;
+      top: 20;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+    }
+    .topnav.responsive a:not(:first-child):not(:last-child) {
+      padding-top: 1px;
+      text-align: center;
+    }
+    #copyright, #push {
+      white-space:nowrap;
+    }
   .about-container {
     display: block;
     align-items: center;
@@ -722,7 +712,7 @@ body {
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
-}
+  }
   .two {
     text-align: center;
     justify-content: center;
@@ -733,20 +723,9 @@ body {
   margin-top:0;
   padding-top:0;
 }
-/* .container-home {
-  display:flex;
-  flex-flow: column wrap;
-}*/
-
  #img01 {
   margin-top:30px;
  }
-/*  .background {
-    position:relative;
-
-    top:80px;
-    left:-240px;
-  }*/
   #fusion {
     left: 80px;
   }
@@ -756,8 +735,6 @@ body {
   #fire, #lumiere {
     left: 110px;
   }
-
-
 #background2 {
   left:50px;
   /*top:25px;*/
@@ -822,7 +799,7 @@ body {
  .column.next h1 {
   font-size:30px;
  }
-  }
+}
 
   @media screen and (max-width: 500px) {
     #push, #copyright {
@@ -831,12 +808,10 @@ body {
     #push {
       margin: 10px 0;
     }
- 
   }
   @media screen and (max-width: 400px) {
     #background2 {
       left:0;  
-      /*top:25px;*/
     }
    #fusion {
     left: 30px;
@@ -910,9 +885,6 @@ and (min-height : 900px){
 }
 @media only screen 
 and (min-height : 1024px){
-#background, .column.previous, .container.contact-container, .about-container, #paintings-container {
-    margin-top:10vh;
-  }
 #background3 {
     top: 250px;
   }
