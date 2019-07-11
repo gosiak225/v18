@@ -882,7 +882,7 @@ and (min-width : 1680px) {
 }
 }
 @media only screen 
-and (min-width : 1920px) 
+and (min-width : 1920px) {
 #background3 {
     left:150px;
   }
@@ -897,7 +897,7 @@ and (min-width : 1920px)
 }
 }
 @media only screen 
-and (min-height : 890px){
+and (min-height : 900px){
 #background, column.previous, .container.contact-container, .about-container, #paintings-container {
     margin-top:10vh;
   }
