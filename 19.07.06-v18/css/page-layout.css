@@ -869,8 +869,8 @@ body {
   }
   }
 
-@media screen and (max-height: 780px) {
-div.column.one {
+@media screen and (max-height: 780px) and (max-width: 900px) {
+.column.one {
   justify-content:top;
 }
 }
