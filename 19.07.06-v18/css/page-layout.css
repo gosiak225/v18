@@ -928,7 +928,7 @@ and (min-height : 900px){
     top: 200px;
   }
 #background2 {
-    top:210px; 
+    top:200px; 
   }
 #fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 310px;
@@ -943,7 +943,7 @@ and (min-height : 1024px){
     top: 250px;
   }
 #background2 {
-    top:260px; 
+    top:250px; 
   }
 #fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 360px;
@@ -955,7 +955,7 @@ and (min-height : 1200px){
     top: 300px;
   }
 #background2 {
-    top:310px; 
+    top:300px; 
   }
 #fusion, #multi1, #multi2, #fire, #lumiere   {
   top: 410px;
