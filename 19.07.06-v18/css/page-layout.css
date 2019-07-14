@@ -879,6 +879,9 @@ body {
   .column.one {
     justify-content:flex-start;
   }
+  .about.container {
+     justify-content:flex-start;
+  }
 }
 
 /* Large screens ----------- */
