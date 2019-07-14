@@ -873,7 +873,7 @@ body {
 
 @media screen and (max-height: 1024px) and (min-height: 641px) and (max-width: 1024px) {
   .column.one {
-    margin-top:140px;
+    margin-top:20px;
   }
   .about.container {
     justify-content:flex-start;
