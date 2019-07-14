@@ -879,7 +879,7 @@ body {
   } */
   .about.container {
     justify-content:flex-start;
-/*     margin-top: 240px; */
+    margin-top: 140px;
 }
 
 /* Large screens ----------- */
