@@ -872,9 +872,9 @@ body {
   }
 
 @media screen and (max-height: 1024px) and (min-height: 641px) and (max-width: 1024px) {
-  #pic-lucie {
+/*   #pic-lucie {
     margin-top:20px;
-  }
+  } */
   .about.container {
     justify-content:flex-start;
 }
