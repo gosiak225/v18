@@ -878,6 +878,7 @@ body {
   .about.container {
     justify-content:flex-start;
 }
+}
 
 /* Large screens ----------- */
 @media only screen 
