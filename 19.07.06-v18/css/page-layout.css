@@ -875,9 +875,10 @@ body {
 /*   #pic-lucie {
     margin-top:20px;
   } */
-  .about.container {
+/*   .about.container { */
+  .column.one {
     justify-content:flex-start;
-}
+  }
 }
 
 /* Large screens ----------- */
