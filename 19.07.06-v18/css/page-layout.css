@@ -872,15 +872,15 @@ body {
   }
 
 @media screen and (max-height: 1024px) and (min-height: 641px) and (max-width: 1024px) {
-  .column.one {
+/*   .column.one {
     justify-content:flex-start;
     margin-top:0;
     padding-top:0;
-  }
-/*   .about.container {
+  } */
+  .about.container {
     justify-content:flex-start;
-    margin-top: 240px;
-} */
+/*     margin-top: 240px; */
+}
 
 /* Large screens ----------- */
 @media only screen 
