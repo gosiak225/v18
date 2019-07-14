@@ -875,6 +875,8 @@ body {
 (max-width: 1024px) {
   .column.one {
     justify-content:top;
+    margin-top:0;
+    padding-top:0;
   }
 }
 
