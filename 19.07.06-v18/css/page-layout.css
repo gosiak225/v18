@@ -871,10 +871,11 @@ body {
   }
   }
 
-@media screen and (max-height: 780px) and (max-width: 900px) {
-.column.one {
-  justify-content:top;
-}
+@media screen and (max-height: 1024px) and (min-height: 641px)
+(max-width: 1024px) {
+  .column.one {
+    justify-content:top;
+  }
 }
 
 /* Large screens ----------- */
