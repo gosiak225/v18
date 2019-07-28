@@ -60,7 +60,6 @@ body {
   white-space: nowrap;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   padding: 20px 20px;
@@ -69,15 +68,15 @@ body {
   word-wrap: nowrap;
   white-space: nowrap;
 }
-/* Change the color of links on hover */
+
 .topnav a:hover, #my-link:hover {
   color: #bf9b30;
 }
-/* Add a color to the active/current link */
+
 .topnav a.active {
   color:#bf9b30;
 }
-/* Hide the link that should open and close the topnav on small screens */
+
 .topnav .icon {
   display: none;
 }
@@ -139,7 +138,6 @@ body {
 .column {
   display: flex;
   flex-direction: column;
-  /*flex-basis: 100%;*/
   flex: 1;
   margin-top: 125px;
   margin-bottom: 120px;
@@ -147,7 +145,6 @@ body {
 }
 .column.center {
   position:relative;
-  /* top: 10vh; */
   text-align: center;
   align-items:center;
   margin-top: 180px;
@@ -187,7 +184,6 @@ body {
   justify-content: center;
   width: 70%;
   padding-top: 10px;
-  /*margin: 110px 20px 120px 20px;*/
   padding-left: 50px;
 
 }
@@ -224,7 +220,6 @@ body {
   font-family: 'Marck Script', cursive;
 }
 .next p {
-  /*margin-top:20px;*/
   color: #373737;
   text-align:center;
 }
@@ -244,11 +239,6 @@ body {
 .background {
   opacity: 0.3;
   filter: alpha(opacity=30); /*For IE8 and earlier */
-/*  height:75vh;
-  min-height:75vh;
-  max-height: 75vh;*/
-  /* width:50vw; */
-  /*min-height:50px;*/
   position: absolute;
   top: 130px;
   left:50px;
@@ -269,8 +259,6 @@ body {
   left:0;
 }
 #fixer img.slideshow {
-/*  top:30%;
-  left:25%;*/
   margin: 5px  5px;
   padding: 5px 5px;
   color:#000;
@@ -384,7 +372,6 @@ body {
   font-size: 30px;
   font-weight: normal;
   margin-bottom:5px;
-/*  color: #7e3817;*/
 }
 #painting-name:hover {
   color: #7e3817;
@@ -426,7 +413,6 @@ body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 3; /* Sit on top */
-  /*padding-top: 80px;  Location of the box */
   left: 0;
   top: 0;
   width: 100vw; /* Full width */
@@ -434,10 +420,6 @@ body {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-/*  align-content:  center;
-  align-self:center;
-  align-items:center;
-  position:center;*/
 }
 
 /* Modal Content (image) */
@@ -446,16 +428,6 @@ body {
   margin: 5px 5px 5px 5px;
   max-width:85vw;
   max-height:95vh;
-/*  position:relative;
-  left:5vw;
-  top:0vh;
-  bottom:5vw;
-  padding-bottom:5px;
-  margin-bottom:5px;
-  align-content:  center;
-  align-self:center;
-  align-items:center;
-  position:center;*/
   display:block;
   margin-right:auto;
   margin-left:auto;
@@ -497,12 +469,6 @@ body {
   cursor: pointer;
 }
 
-
-/*@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}*/
 
 .description-text {
   background-color:white;
@@ -686,19 +652,16 @@ body {
   left:100px;
 }
 }
-/* When the screen is less than 700 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
 @media screen and (max-width: 780px) {
-    /* hiding all the links except the logo and brand */
+
     .topnav a:not(:first-child) {display: none;}
-    /* menu bar - position right-top */
     .topnav a.icon {  
       display: block;
       position: absolute;
       right: 0;
       top: 0;
     }
-    /* .topnav.responsive {position: relative;} */
     .topnav.responsive a.icon {
       position: absolute;
       right: 20;
@@ -769,7 +732,6 @@ body {
   display:block;
 }
   .column.next {
-    /*margin-bottom:150px;*/
     margin-top:600px;
   }
   .column.previous {
@@ -872,10 +834,6 @@ body {
   }
 
 @media screen and (max-height: 800px) and (min-width: 641px) and (max-width: 1024px) {
-/*   #pic-lucie {
-    margin-top:20px;
-  } */
-/*   .about.container { */
   .column.one {
     justify-content:flex-start;
   }
