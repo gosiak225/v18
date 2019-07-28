@@ -6,7 +6,6 @@ function setClipboard(value) {
   document.body.appendChild(tempInput);
   tempInput.select();
   document.execCommand("copy");
-  // document.getElementById("mail").title = "Déjà copié !";
 }
 
 var mailHolder = document.getElementById("mail");
