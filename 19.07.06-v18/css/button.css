@@ -53,22 +53,3 @@ a:hover.button {
         background-image: linear-gradient(top, #4d2c3d, #755352);
         filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#4d2c3d', EndColorStr='#755352');
         }
-
-/* 
-        a.button-brown {
-            background: url(button-brown.png) 0 0 no-repeat;
-            width: 172px ;
-            height: 26px;
-            color: #CC0000;
-            font-size: 14px;
-            font-weight: bold;
-            text-align: center;
-            line-height: 18px;
-            overflow: hidden;
-            display: inline-block;
-            text-decoration: none;
-            padding: 10px 0px;
-            text-shadow: 0px 1px 2px #fff;
-            }
-            
-            a:hover.button-brown { background: url(button-brown.png) 0 -47px no-repeat; } */
